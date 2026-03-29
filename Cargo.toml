@@ -1,0 +1,12 @@
+[package]
+name = "rust_multimedia_browser"
+version = "0.1.0"
+edition = "2021"
+description = "A small GTK4 + WebKitGTK Rust browser with HTML5 multimedia support"
+license = "MIT"
+publish = false
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.11" }
+webkit = { package = "webkit6", version = "0.6" }
+urlencoding = "2.1"
